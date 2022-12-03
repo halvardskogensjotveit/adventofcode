@@ -20,3 +20,20 @@ foreach(var line in lines)
 }
 
 Console.WriteLine($"PrioritiesSum: {prioritiesSum}");
+
+int currIndex = 0;
+int prioritiesSumBadge = 0;
+while(currIndex < lines.Length)
+{
+    var errorChar = lines[currIndex].ToCharArray().First(
+        c => lines[currIndex+1].Contains(c) && lines[currIndex+2].Contains(c));
+
+    var isUpper = char.IsUpper(errorChar);
+    var intChar = ((isUpper ? errorChar : char.ToUpperInvariant(errorChar)) - 'A') + 1;
+    var priority = isUpper ? intChar + 26 : intChar;
+    prioritiesSumBadge += priority;
+
+    currIndex += 3;
+}
+
+Console.WriteLine($"prioritiesSumBadge: {prioritiesSumBadge}");
