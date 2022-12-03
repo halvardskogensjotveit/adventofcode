@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\bin\Debug\net6.0\Rucksack.exe
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\bin\Debug\net6.0\Rucksack.deps.json
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\bin\Debug\net6.0\Rucksack.runtimeconfig.json
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\bin\Debug\net6.0\Rucksack.dll
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\bin\Debug\net6.0\Rucksack.pdb
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.AssemblyInfo.cs
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.dll
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\refint\Rucksack.dll
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.pdb
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\Rucksack.genruntimeconfig.cache
+C:\dev\repos\adventofcode\03\Rucksack\Rucksack\obj\Debug\net6.0\ref\Rucksack.dll
