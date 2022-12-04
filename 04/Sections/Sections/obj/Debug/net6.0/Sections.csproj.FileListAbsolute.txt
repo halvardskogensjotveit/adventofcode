@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\04\Sections\Sections\bin\Debug\net6.0\Sections.exe
+C:\dev\repos\adventofcode\04\Sections\Sections\bin\Debug\net6.0\Sections.deps.json
+C:\dev\repos\adventofcode\04\Sections\Sections\bin\Debug\net6.0\Sections.runtimeconfig.json
+C:\dev\repos\adventofcode\04\Sections\Sections\bin\Debug\net6.0\Sections.dll
+C:\dev\repos\adventofcode\04\Sections\Sections\bin\Debug\net6.0\Sections.pdb
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.AssemblyInfo.cs
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.dll
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\refint\Sections.dll
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.pdb
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\Sections.genruntimeconfig.cache
+C:\dev\repos\adventofcode\04\Sections\Sections\obj\Debug\net6.0\ref\Sections.dll
