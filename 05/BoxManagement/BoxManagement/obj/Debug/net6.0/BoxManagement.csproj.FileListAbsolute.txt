@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\bin\Debug\net6.0\BoxManagement.exe
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\bin\Debug\net6.0\BoxManagement.deps.json
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\bin\Debug\net6.0\BoxManagement.runtimeconfig.json
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\bin\Debug\net6.0\BoxManagement.dll
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\bin\Debug\net6.0\BoxManagement.pdb
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.AssemblyInfo.cs
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.dll
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\refint\BoxManagement.dll
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.pdb
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\BoxManagement.genruntimeconfig.cache
+C:\dev\repos\adventofcode\05\BoxManagement\BoxManagement\obj\Debug\net6.0\ref\BoxManagement.dll
