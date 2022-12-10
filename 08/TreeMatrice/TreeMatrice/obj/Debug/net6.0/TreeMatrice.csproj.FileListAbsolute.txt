@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.AssemblyInfo.cs
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\bin\Debug\net6.0\TreeMatrice.exe
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\bin\Debug\net6.0\TreeMatrice.deps.json
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\bin\Debug\net6.0\TreeMatrice.runtimeconfig.json
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\bin\Debug\net6.0\TreeMatrice.dll
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\bin\Debug\net6.0\TreeMatrice.pdb
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.dll
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\refint\TreeMatrice.dll
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.pdb
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\TreeMatrice.genruntimeconfig.cache
+C:\dev\repos\adventofcode\08\TreeMatrice\TreeMatrice\obj\Debug\net6.0\ref\TreeMatrice.dll

@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\bin\Debug\net6.0\ComSystem.exe
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\bin\Debug\net6.0\ComSystem.deps.json
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\bin\Debug\net6.0\ComSystem.runtimeconfig.json
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\bin\Debug\net6.0\ComSystem.dll
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\bin\Debug\net6.0\ComSystem.pdb
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.AssemblyInfo.cs
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.dll
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\refint\ComSystem.dll
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.pdb
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ComSystem.genruntimeconfig.cache
+C:\dev\repos\adventofcode\05\ComSystem\ComSystem\obj\Debug\net6.0\ref\ComSystem.dll

@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\09\Snake\Snake\bin\Debug\net6.0\Snake.exe
+C:\dev\repos\adventofcode\09\Snake\Snake\bin\Debug\net6.0\Snake.deps.json
+C:\dev\repos\adventofcode\09\Snake\Snake\bin\Debug\net6.0\Snake.runtimeconfig.json
+C:\dev\repos\adventofcode\09\Snake\Snake\bin\Debug\net6.0\Snake.dll
+C:\dev\repos\adventofcode\09\Snake\Snake\bin\Debug\net6.0\Snake.pdb
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.AssemblyInfo.cs
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.dll
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\refint\Snake.dll
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.pdb
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\Snake.genruntimeconfig.cache
+C:\dev\repos\adventofcode\09\Snake\Snake\obj\Debug\net6.0\ref\Snake.dll

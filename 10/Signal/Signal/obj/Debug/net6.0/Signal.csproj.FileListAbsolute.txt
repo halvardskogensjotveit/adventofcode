@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\10\Signal\Signal\bin\Debug\net6.0\Signal.exe
+C:\dev\repos\adventofcode\10\Signal\Signal\bin\Debug\net6.0\Signal.deps.json
+C:\dev\repos\adventofcode\10\Signal\Signal\bin\Debug\net6.0\Signal.runtimeconfig.json
+C:\dev\repos\adventofcode\10\Signal\Signal\bin\Debug\net6.0\Signal.dll
+C:\dev\repos\adventofcode\10\Signal\Signal\bin\Debug\net6.0\Signal.pdb
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.AssemblyInfo.cs
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.dll
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\refint\Signal.dll
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.pdb
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\Signal.genruntimeconfig.cache
+C:\dev\repos\adventofcode\10\Signal\Signal\obj\Debug\net6.0\ref\Signal.dll

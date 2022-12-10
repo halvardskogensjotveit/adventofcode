@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\bin\Debug\net6.0\DirectoryAnalyzer.exe
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\bin\Debug\net6.0\DirectoryAnalyzer.deps.json
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\bin\Debug\net6.0\DirectoryAnalyzer.runtimeconfig.json
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\bin\Debug\net6.0\DirectoryAnalyzer.dll
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\bin\Debug\net6.0\DirectoryAnalyzer.pdb
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.AssemblyInfo.cs
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.dll
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\refint\DirectoryAnalyzer.dll
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.pdb
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\DirectoryAnalyzer.genruntimeconfig.cache
+C:\dev\repos\adventofcode\07\DirectoryAnalyzer\DirectoryAnalyzer\obj\Debug\net6.0\ref\DirectoryAnalyzer.dll
