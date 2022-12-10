@@ -6,107 +6,32 @@ int startJ = 4;
 
 var head = new MutableTuple { Item1 = startI, Item2 = startJ };
 var tail = new MutableTuple { Item1 = startI, Item2 = startJ };
+
 foreach (var line in inputLines)
 {
     var lineArr = line.Split(' ');
     var command = lineArr[0];
     var steps = int.Parse(lineArr[1]);
-    switch (command)
+    while (steps > 0)
     {
-        case "U":
-            while (steps > 0)
+        var isUpOrDown = MoveAndGetUpOrDown(head, command);
+        if (!IsAdjacent(head, tail))
+        {
+            MoveAndGetUpOrDown(tail, command);
+            if (!IsColumnOrRow(head, tail))
             {
-                head.Item2--;
-                if (!IsAdjacent(head, tail))
+                if (isUpOrDown)
                 {
-                    tail.Item2--;
-                    if (!IsColumnOrRow(head, tail))
-                    {
-                        if (CheckIfMoveRight(head, tail))
-                        {
-                            tail.Item1++;
-                        }
-                        else
-                        {
-                            tail.Item1--;
-                        }
-                    }
+                    MoveRightOrLeft(head, tail);                    
                 }
-                tupleArray.Add(new Tuple<int, int>(tail.Item1, tail.Item2));
-                steps--;
-            }
-            break;
-        case "D":
-            while (steps > 0)
-            {
-                head.Item2++;
-                if (!IsAdjacent(head, tail))
+                else
                 {
-                    tail.Item2++;
-                    if (!IsColumnOrRow(head, tail))
-                    {
-                        if (CheckIfMoveRight(head, tail))
-                        {
-                            tail.Item1++;
-                        }
-                        else
-                        {
-                            tail.Item1--;
-                        }
-                    }
+                    ModeUpOrDown(head, tail);
                 }
-                tupleArray.Add(new Tuple<int, int>(tail.Item1, tail.Item2));
-                steps--;
             }
-            break;
-        case "R":
-            while (steps > 0)
-            {
-                head.Item1++;
-                if (!IsAdjacent(head, tail))
-                {
-                    tail.Item1++;
-                    if (!IsColumnOrRow(head, tail))
-                    {
-                        if (CheckIfMoveUp(head, tail))
-                        {
-                            tail.Item2--;
-                        }
-                        else
-                        {
-                            tail.Item2++;
-                        }
-                    }
-                }
-                tupleArray.Add(new Tuple<int, int>(tail.Item1, tail.Item2));
-                steps--;
-            }
-            break;
-        case "L":
-            while (steps > 0)
-            {
-                head.Item1--;
-                if (!IsAdjacent(head, tail))
-                {
-                    tail.Item1--; ;
-                    if (!IsColumnOrRow(head, tail))
-                    {
-                        if (CheckIfMoveUp(head, tail))
-                        {
-                            tail.Item2--;
-                        }
-                        else
-                        {
-                            tail.Item2++;
-                        }
-                    }
-                }
-                tupleArray.Add(new Tuple<int, int>(tail.Item1, tail.Item2));
-                steps--;
-            }
-            break;
-        default:
-            break;
+        }
+        tupleArray.Add(new Tuple<int, int>(tail.Item1, tail.Item2));
+        steps--;
     }
 }
 
@@ -133,18 +58,24 @@ bool MoveAndGetUpOrDown(MutableTuple tupleToMove, string command)
     }
 }
 
-bool CheckIfMoveRight(MutableTuple head, MutableTuple tail)
+void MoveRightOrLeft(MutableTuple head, MutableTuple tail)
 {
     if (tail.Item1 < head.Item1)
-        return true;
-    return false;
+    {
+        tail.Item1++;
+        return;
+    }        
+    tail.Item1--;
 }
 
-bool CheckIfMoveUp(MutableTuple head, MutableTuple tail)
+void ModeUpOrDown(MutableTuple head, MutableTuple tail)
 {
     if (tail.Item2 > head.Item2)
-        return true;
-    return false;
+    {
+        tail.Item2--;
+        return;
+    }
+    tail.Item2++;
 }
 
 bool IsColumnOrRow(MutableTuple head, MutableTuple tail)
