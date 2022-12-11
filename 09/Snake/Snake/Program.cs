@@ -37,6 +37,65 @@ foreach (var line in inputLines)
 
 Console.WriteLine(tupleArray.Distinct().Count());
 
+var tupleArray2 = new List<Tuple<int, int>>();
+
+var mutableTupleArray = new MutableTuple[10];
+for (int i = 0;i <mutableTupleArray.Length; i++)
+{
+    mutableTupleArray[i] = new MutableTuple
+    {
+        Item1 = startI,
+        Item2 = startJ
+    };
+}
+mutableTupleArray[0].Head = true;
+mutableTupleArray[9].Tail = true;
+
+tupleArray2.Add(new Tuple<int, int>(startI, startJ));
+
+foreach (var line in File.ReadAllLines("C:\\dev\\repos\\adventofcode\\09\\test2.txt"))
+{
+    var lineArr = line.Split(' ');
+    var command = lineArr[0];
+    var steps = int.Parse(lineArr[1]);
+    var isUpOrDown = false;
+    while (steps > 0)
+    {
+        for (int i = 0;i < mutableTupleArray.Length; i++)
+        {
+            if (mutableTupleArray[i].Head)
+            {
+                isUpOrDown = MoveAndGetUpOrDown(mutableTupleArray[i], command);
+            }
+            else
+            {
+                if (!IsAdjacent(mutableTupleArray[i - 1], mutableTupleArray[i]))
+                {
+                    MoveAndGetUpOrDown(mutableTupleArray[i], command);
+                    if (!IsColumnOrRow(mutableTupleArray[i-1], mutableTupleArray[i]))
+                    {
+                        if (isUpOrDown)
+                        {
+                            MoveRightOrLeft(mutableTupleArray[i-1], mutableTupleArray[i]);
+                        }
+                        else
+                        {
+                            ModeUpOrDown(mutableTupleArray[i-1], mutableTupleArray[i]);
+                        }
+                    }
+                }
+                if (mutableTupleArray[i].Tail)
+                {
+                    tupleArray2.Add(new Tuple<int, int>(mutableTupleArray[i].Item1, mutableTupleArray[i].Item2));
+                }
+            }            
+        }
+        steps--;
+    }   
+}
+
+Console.WriteLine($"2: {tupleArray2.Distinct().Count()}");
+
 bool MoveAndGetUpOrDown(MutableTuple tupleToMove, string command)
 {
     switch (command)

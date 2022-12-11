@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\bin\Debug\net6.0\MonkeyBusiness.exe
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\bin\Debug\net6.0\MonkeyBusiness.deps.json
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\bin\Debug\net6.0\MonkeyBusiness.runtimeconfig.json
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\bin\Debug\net6.0\MonkeyBusiness.dll
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\bin\Debug\net6.0\MonkeyBusiness.pdb
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.AssemblyInfo.cs
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.dll
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\refint\MonkeyBusiness.dll
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.pdb
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\MonkeyBusiness.genruntimeconfig.cache
+C:\dev\repos\adventofcode\11\MonkeyBusiness\MonkeyBusiness\obj\Debug\net6.0\ref\MonkeyBusiness.dll
