@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\bin\Debug\net6.0\ShortestPath.exe
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\bin\Debug\net6.0\ShortestPath.deps.json
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\bin\Debug\net6.0\ShortestPath.runtimeconfig.json
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\bin\Debug\net6.0\ShortestPath.dll
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\bin\Debug\net6.0\ShortestPath.pdb
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.AssemblyInfo.cs
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.dll
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\refint\ShortestPath.dll
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.pdb
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ShortestPath.genruntimeconfig.cache
+C:\dev\repos\adventofcode\12\ShortestPath\ShortestPath\obj\Debug\net6.0\ref\ShortestPath.dll
