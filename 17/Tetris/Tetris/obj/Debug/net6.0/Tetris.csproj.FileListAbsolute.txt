@@ -1,0 +1,15 @@
+C:\dev\repos\adventofcode\17\Tetris\Tetris\bin\Debug\net6.0\Tetris.exe
+C:\dev\repos\adventofcode\17\Tetris\Tetris\bin\Debug\net6.0\Tetris.deps.json
+C:\dev\repos\adventofcode\17\Tetris\Tetris\bin\Debug\net6.0\Tetris.runtimeconfig.json
+C:\dev\repos\adventofcode\17\Tetris\Tetris\bin\Debug\net6.0\Tetris.dll
+C:\dev\repos\adventofcode\17\Tetris\Tetris\bin\Debug\net6.0\Tetris.pdb
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.csproj.AssemblyReference.cache
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.AssemblyInfoInputs.cache
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.AssemblyInfo.cs
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.csproj.CoreCompileInputs.cache
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.dll
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\refint\Tetris.dll
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.pdb
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\Tetris.genruntimeconfig.cache
+C:\dev\repos\adventofcode\17\Tetris\Tetris\obj\Debug\net6.0\ref\Tetris.dll
