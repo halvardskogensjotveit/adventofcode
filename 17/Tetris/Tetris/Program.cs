@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 
 var inputCurrentIndex = 0;
-var inputLines = File.ReadAllText("C:\\dev\\repos\\adventofcode\\17\\test.txt");
+var inputLines = File.ReadAllText("C:\\dev\\repos\\adventofcode\\17\\input.txt").Trim();
 var tetrisPositions = new string[4,7];
 Fill(tetrisPositions);
 
@@ -12,12 +12,10 @@ int rock = 0;
 var indexOfTopOfRock = -1;
 int indexRockPosition = 0;
 int heightOfRock = 2;
-
-for (int i = 0; i < 2023; i++)
+int count = 0;
+for (int i = 0; i < 2022; i++)
 {
     var height = AddCorrectRock(tetrisPositions);
-    //Console.WriteLine("Start");
-    //Print(tetrisPositions);
     bool canMove = true;
     while (canMove)
     {
@@ -43,6 +41,7 @@ for (int i = 0; i < 2023; i++)
             //Print(tetrisPositions);
             canMove = false;
             PlaceRock(tetrisPositions);
+            count++;
         }
         //Print(tetrisPositions);
     }
@@ -50,8 +49,8 @@ for (int i = 0; i < 2023; i++)
     //Print(tetrisPositions);
 }
 
-//Print(tetrisPositions);
-//indexOfTopOfRock = FindTopOfRocks(tetrisPositions);
+Print(tetrisPositions);
+indexOfTopOfRock = FindTopOfRocks(tetrisPositions);
 Console.WriteLine($"Answer? {tetrisPositions.GetLength(0) - indexOfTopOfRock}");
 
 int AddCorrectRock(string[,] curr)
@@ -203,7 +202,12 @@ void LandRock()
 
 string[,] PlaceSquareRock(string[,] old)
 {
-    var curr = ResizeArray(old, 2);
+    var curr = old;
+    indexOfTopOfRock = FindTopOfRocks(curr);
+    if (indexOfTopOfRock - (4+2) < 0)
+    {
+        curr = ResizeArray(old, 2);
+    }
     indexOfTopOfRock = FindTopOfRocks(curr);
     var squareRock = new string[2, 2] { { "@", "@"}, { "@", "@"} };
     for (int j = 0; j < squareRock.GetLength(0); j++)
@@ -225,8 +229,13 @@ string[,] PlaceSquareRock(string[,] old)
 }
 
 string[,] PlaceTallRock(string[,] old)
-{ 
-    var curr = ResizeArray(old, 4);
+{
+    var curr = old;
+    indexOfTopOfRock = FindTopOfRocks(curr);
+    if (indexOfTopOfRock - (4 + 4) < 0)
+    {
+        curr = ResizeArray(old, 4);
+    }
     indexOfTopOfRock = FindTopOfRocks(curr);
     var tallRock = new string[4] { "@", "@", "@", "@" };
     for (int i = 0; i < tallRock.Length; i++)
@@ -240,7 +249,12 @@ string[,] PlaceTallRock(string[,] old)
 
 string[,] PlaceLRock(string[,] old)
 {
-    var curr = ResizeArray(old, 3);
+    var curr = old;
+    indexOfTopOfRock = FindTopOfRocks(curr);
+    if (indexOfTopOfRock - (4 + 3) < 0)
+    {
+        curr = ResizeArray(old, 3);
+    }
     indexOfTopOfRock = FindTopOfRocks(curr);
     var lRock = new string[3, 3] { { ".", ".", "@" }, { ".", ".", "@" }, { "@", "@", "@" } };
     for (int j = 0; j < lRock.GetLength(0); j++)
@@ -264,7 +278,12 @@ string[,] PlaceLRock(string[,] old)
 
 string[,] PlaceCrossRock(string[,] old)
 {
-    var curr = ResizeArray(old, 3);
+    var curr = old;
+    indexOfTopOfRock = FindTopOfRocks(curr);
+    if (indexOfTopOfRock - (4 + 3) < 0)
+    {
+        curr = ResizeArray(old, 3);
+    }
     indexOfTopOfRock = FindTopOfRocks(curr);
     var crossRock = new string[3, 3] { { ".", "@", "." }, { "@", "@", "@" }, { ".", "@", "." } };
     for (int j  = 0;j < crossRock.GetLength(0); j++)
@@ -288,7 +307,12 @@ string[,] PlaceCrossRock(string[,] old)
 
 string[,] PlaceFlatRock(string[,] old)
 {
-    var curr = ResizeArray(old, 1);
+    var curr = old;
+    indexOfTopOfRock = FindTopOfRocks(curr);
+    if (indexOfTopOfRock - (4 + 1) < 0)
+    {
+        curr = ResizeArray(old, 1);
+    }
     indexOfTopOfRock = FindTopOfRocks(curr);
     var flatRock = new string[4] {"@", "@", "@", "@" };
     for (int i = 0;i < flatRock.Length; i++)
