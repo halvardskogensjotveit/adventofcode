@@ -8,91 +8,86 @@ var tetrisPositions = new string[4,7];
 Fill(tetrisPositions);
 
 int rocks = 0;
+int rock = 0;
 var indexOfTopOfRock = -1;
 int indexRockPosition = 0;
 int heightOfRock = 2;
-//while (rocks < 2023)
-//{
-//    //PlaceFlatRock()
-//}
 
-tetrisPositions = PlaceSquareRock(tetrisPositions);
-
-Print(tetrisPositions);
-
-Console.WriteLine();
-
-MoveRight(tetrisPositions, heightOfRock);
-Print(tetrisPositions);
-Console.WriteLine();
-
-MoveLeft(tetrisPositions, heightOfRock);
-Print(tetrisPositions);
-Console.WriteLine();
-MoveRight(tetrisPositions, heightOfRock);
-Print(tetrisPositions);
-Console.WriteLine();
-
-    MoveLeft(tetrisPositions, heightOfRock);
-Print(tetrisPositions);
-Console.WriteLine();
-
-MoveLeft(tetrisPositions, heightOfRock);
-Print(tetrisPositions);
-Console.WriteLine();
-
-if (CanMoveRockDown(tetrisPositions))
+for (int i = 0; i < 2023; i++)
 {
-    Console.WriteLine("CAn move");
-    MoveRockDown(tetrisPositions);
-}
-else
-{
-    Console.WriteLine("CAnt move!");
-}
-    
-Print(tetrisPositions);
+    var height = AddCorrectRock(tetrisPositions);
+    //Console.WriteLine("Start");
+    //Print(tetrisPositions);
+    bool canMove = true;
+    while (canMove)
+    {
+        //Print(tetrisPositions);
+        if (inputCurrentIndex == inputLines.Length)
+            inputCurrentIndex = 0;
+        if (inputLines[inputCurrentIndex] == '<')
+        {
+            MoveLeft(tetrisPositions, height);
+        }
+        else
+        {
+            MoveRight(tetrisPositions, height);
+        }
+        inputCurrentIndex++;
 
-if (CanMoveRockDown(tetrisPositions))
-{
-    Console.WriteLine("CAn move");
-    MoveRockDown(tetrisPositions);
-}
-else
-{
-    Console.WriteLine("CAnt move!");
+        if (CanMoveRockDown(tetrisPositions))
+        {
+            MoveRockDown(tetrisPositions);
+        }
+        else
+        {
+            //Print(tetrisPositions);
+            canMove = false;
+            PlaceRock(tetrisPositions);
+        }
+        //Print(tetrisPositions);
+    }
+
+    //Print(tetrisPositions);
 }
 
-Print(tetrisPositions);
+//Print(tetrisPositions);
+//indexOfTopOfRock = FindTopOfRocks(tetrisPositions);
+Console.WriteLine($"Answer? {tetrisPositions.GetLength(0) - indexOfTopOfRock}");
 
-if (CanMoveRockDown(tetrisPositions))
+int AddCorrectRock(string[,] curr)
 {
-    Console.WriteLine("CAn move");
-    MoveRockDown(tetrisPositions);
+    if (rock == 0)
+    {
+        tetrisPositions = PlaceFlatRock(curr);
+        rock++;
+        return 1;
+    }
+    if (rock == 1)
+    {
+        tetrisPositions = PlaceCrossRock(curr);
+        rock++;
+        return 3;
+    }
+    if (rock == 2)
+    {
+        tetrisPositions = PlaceLRock(curr);
+        rock++;
+        return 3;
+    }
+    if (rock == 3)
+    {
+        tetrisPositions = PlaceTallRock(curr);
+        rock++;
+        return 4;
+    }
+    if (rock == 4)
+    {
+        tetrisPositions = PlaceSquareRock(curr);
+        rock = 0;
+        return 2;
+    }
+    return 89;
 }
-else
-{
-    Console.WriteLine("CAnt move!");
-}
-
-Print(tetrisPositions);
-
-if (CanMoveRockDown(tetrisPositions))
-{
-    Console.WriteLine("CAn move");
-    MoveRockDown(tetrisPositions);
-}
-else
-{
-    Console.WriteLine("CAnt move!");
-}
-
-Print(tetrisPositions);
-Console.WriteLine();
-
-PlaceRock(tetrisPositions);
-
-Print(tetrisPositions);
 
 void PlaceRock(string[,] curr)
 {
@@ -110,7 +105,7 @@ void PlaceRock(string[,] curr)
 
 void MoveLeft(string[,] curr, int heightOfRock)
 {
-    for (int i = indexOfTopOfRock -3-heightOfRock;i <= indexOfTopOfRock - 3; i++)
+    for (int i = indexRockPosition-heightOfRock;i <= indexRockPosition; i++)
     {
         for (int j = 0;j < curr.GetLength(1); j++)
         {
@@ -124,7 +119,7 @@ void MoveLeft(string[,] curr, int heightOfRock)
         }
     }
 
-    for (int i = indexOfTopOfRock - 3 - heightOfRock; i <= indexOfTopOfRock - 3; i++)
+    for (int i = indexRockPosition - heightOfRock; i <= indexRockPosition; i++)
     {
         for (int j = 0; j < curr.GetLength(1); j++)
         {
@@ -213,18 +208,18 @@ string[,] PlaceSquareRock(string[,] old)
     var squareRock = new string[2, 2] { { "@", "@"}, { "@", "@"} };
     for (int j = 0; j < squareRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 3, 2 + j] = squareRock[1, j];
+        curr[indexOfTopOfRock - 4, 2 + j] = squareRock[1, j];
     }
 
-    if (indexOfTopOfRock - 4 < 0)
+    if (indexOfTopOfRock - 5 < 0)
         return curr;
 
     for (int j = 0; j < squareRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 4, 2 + j] = squareRock[0, j];
+        curr[indexOfTopOfRock - 5, 2 + j] = squareRock[0, j];
     }
 
-    indexRockPosition = indexOfTopOfRock - 3;
+    indexRockPosition = indexOfTopOfRock - 4;
 
     return curr;
 }
@@ -236,10 +231,10 @@ string[,] PlaceTallRock(string[,] old)
     var tallRock = new string[4] { "@", "@", "@", "@" };
     for (int i = 0; i < tallRock.Length; i++)
     {
-        curr[indexOfTopOfRock - (3 + i), 2] = tallRock[i];
+        curr[indexOfTopOfRock - (4 + i), 2] = tallRock[i];
     }
 
-    indexRockPosition = indexOfTopOfRock - (3);
+    indexRockPosition = indexOfTopOfRock - (4);
     return curr;
 }
 
@@ -250,20 +245,20 @@ string[,] PlaceLRock(string[,] old)
     var lRock = new string[3, 3] { { ".", ".", "@" }, { ".", ".", "@" }, { "@", "@", "@" } };
     for (int j = 0; j < lRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 3, 2 + j] = lRock[2, j];
+        curr[indexOfTopOfRock - 4, 2 + j] = lRock[2, j];
     }
 
     for (int j = 0; j < lRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 4, 2 + j] = lRock[1, j];
+        curr[indexOfTopOfRock - 5, 2 + j] = lRock[1, j];
     }
 
     for (int j = 0; j < lRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 5, 2 + j] = lRock[0, j];
+        curr[indexOfTopOfRock - 6, 2 + j] = lRock[0, j];
     }
 
-    indexRockPosition = indexOfTopOfRock - 3;
+    indexRockPosition = indexOfTopOfRock - 4;
     return curr;
 }
 
@@ -274,20 +269,20 @@ string[,] PlaceCrossRock(string[,] old)
     var crossRock = new string[3, 3] { { ".", "@", "." }, { "@", "@", "@" }, { ".", "@", "." } };
     for (int j  = 0;j < crossRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 3, 2 + j] = crossRock[2, j];
+        curr[indexOfTopOfRock - 4, 2 + j] = crossRock[2, j];
     }
 
     for (int j = 0;j < crossRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 4, 2 + j] = crossRock[1, j];
+        curr[indexOfTopOfRock - 5, 2 + j] = crossRock[1, j];
     }
 
     for (int j = 0; j < crossRock.GetLength(0); j++)
     {
-        curr[indexOfTopOfRock - 5, 2 + j] = crossRock[0, j];
+        curr[indexOfTopOfRock - 6, 2 + j] = crossRock[0, j];
     }
 
-    indexRockPosition = indexOfTopOfRock - 3;
+    indexRockPosition = indexOfTopOfRock - 4;
     return curr;
 }
 
@@ -298,10 +293,10 @@ string[,] PlaceFlatRock(string[,] old)
     var flatRock = new string[4] {"@", "@", "@", "@" };
     for (int i = 0;i < flatRock.Length; i++)
     {
-        curr[indexOfTopOfRock - 3, 2 + i] = flatRock[i];
+        curr[indexOfTopOfRock - 4, 2 + i] = flatRock[i];
     }
 
-    indexRockPosition = indexOfTopOfRock - 3;
+    indexRockPosition = indexOfTopOfRock - 4;
 
     return curr;
 }
@@ -311,9 +306,9 @@ string[,] ResizeArray(string[,] original, int height)
 {
     var newArray = new string[original.GetLength(0)+ height, original.GetLength(1)];
     Fill(newArray);
-    for (int i = 0; i < newArray.GetLength(0)-height; i++)
+    for (int i = height; i < newArray.GetLength(0); i++)
         for (int j = 0; j < newArray.GetLength(1); j++)
-            newArray[i, j] = original[i, j];
+            newArray[i, j] = original[i-height, j];
     return newArray;
 }
 
@@ -329,7 +324,7 @@ int FindTopOfRocks(string[,] curr)
             }
         }
     }
-    return curr.GetLength(0)-1;
+    return curr.GetLength(0);
 }
 
 void Print(string[,] curr)
@@ -343,6 +338,7 @@ void Print(string[,] curr)
         }
         Console.WriteLine(currString);
     }
+    Console.WriteLine();
 }
 
 void Fill(string[,] curr)
